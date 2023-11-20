@@ -5,7 +5,7 @@ const accounts = vars.has("PRIVATE_KEY") ? [vars.get("PRIVATE_KEY")] : [];
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  defaultNetwork: "sepolia",
+  defaultNetwork: "hardhat",
   networks: {
     hardhat: {
     },
